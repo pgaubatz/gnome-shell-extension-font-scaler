@@ -1,0 +1,9 @@
+{
+  "extension-id": "font-scaler",
+  "uuid": "font-scaler@patrick.gaubatz.at",
+  "name": "Font Scaler",
+  "description": "Font Scaler",
+  "shell-version": [ "3.12", "3.14", "3.16" ],
+  "original-authors": [ "patrick@gaubatz.at" ],
+  "url": "https://github.com/pgaubatz/gnome-shell-extension-font-scaler"
+}
