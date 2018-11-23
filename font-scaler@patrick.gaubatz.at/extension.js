@@ -54,7 +54,7 @@ const FontScaler = new Lang.Class({
 
 function init(extensionMeta) {
   const theme = Gtk.IconTheme.get_default()
-  theme.append_search_path(extensionMeta.path + '/icons')
+  theme.append_search_path(extensionMeta.path)
 }
 
 function enable() {
