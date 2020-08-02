@@ -42,9 +42,9 @@ const FontScaler = new Lang.Class({
       icon_name: ICON,
       style_class: 'system-status-icon'
     })
-    this.actor.add_actor(this._icon)
-    this.actor.add_style_class_name('panel-status-button')
-    this.actor.connect('button-press-event', Lang.bind(this, this.toggle))
+    this.add_actor(this._icon)
+    this.add_style_class_name('panel-status-button')
+    this.connect('button-press-event', Lang.bind(this, this.toggle))
   },
   toggle: function () {
     const value = this.settings.get_double(KEY) === 1 ? 1.3 : 1
